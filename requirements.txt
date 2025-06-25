@@ -3,3 +3,7 @@ langchain_core
 langchain_community
 dotenv
 python-dotenv
+langchain-ollama
+langchain_groq
+fastapi
+langserve
