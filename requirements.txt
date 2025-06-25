@@ -7,3 +7,4 @@ langchain-ollama
 langchain_groq
 fastapi
 langserve
+uvicorn
