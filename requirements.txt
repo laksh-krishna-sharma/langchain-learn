@@ -10,3 +10,5 @@ langserve
 uvicorn
 langchain_ollama
 sse_starlette
+groq
+beautifulsoup4
