@@ -16,7 +16,7 @@ load_dotenv()
 ## load the API key
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
-groq_api_key=os.environ['GROQ_API_KEY']
+groq_api_key=os.getenv("GROQ_API_KEY")
 
 if "vector" not in st.session_state:
     st.session_state.embeddings=OllamaEmbeddings(model="nomic-embed-text")
